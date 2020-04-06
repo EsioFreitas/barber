@@ -1,0 +1,10 @@
+{
+  "name": "barber",
+  "version": "1.0.0",
+  "description": "An estudy NodeJs project",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
