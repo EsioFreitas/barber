@@ -1,4 +1,5 @@
 const express = require("express");
+const routes = require("./routes");
 
 class App {
   constructor() {
@@ -10,7 +11,9 @@ class App {
   middlewares() {
     this.serve.use(express.json());
   }
-  routes() {}
+  routes() {
+    this.serve.use(routes);
+  }
 }
 
 module.exports = new App().serve;
