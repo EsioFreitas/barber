@@ -22,16 +22,18 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      password_hash: {
+      provider: {
         type: Sequelize.BOOLEAN,
         allowNull: false,
         defaultValue: false,
       },
       created_at: {
+        // field: "created_at",
         type: Sequelize.DATE,
         allowNull: false,
       },
       updated_at: {
+        // field: "updated_at",
         type: Sequelize.DATE,
         allowNull: false,
       },

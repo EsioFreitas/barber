@@ -5,8 +5,8 @@ module.exports = {
   password: "docker",
   database: "barber",
   define: {
-    timestamp: true,
-    underscored: true,
-    underscoredAll: true,
+    timestamps: true,
+    createdAt: "created_at",
+    updatedAt: "updated_at",
   },
 };
